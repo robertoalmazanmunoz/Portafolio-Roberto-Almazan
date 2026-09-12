@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--metadatos de la página-->
+        <meta charset="utf-8">
+        <meta name="author" content="Roberto Marcos Almazán Muñoz - roberto.almazan.m@gmail.com">
+        
+        <!--Título de la pestaña de la página-->
+        <title>Películas Marvel</title>
+
+        <!--Hoja de estilo de la página-->
+        <link rel="stylesheet" href="../assets/css/style-marvel.css">
+        
+        <!--Estilo de la tabla-->
+        <style>
+            td, th {
+            border: 1px solid #030000;
+            text-align: center;
+            padding: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+
+            <!--Título de la página que se ve en el encabezado-->
+            <h1>Películas Marvel</h1> <br>
+        </header>
+
+        <!--Navegador de la página, link a distintas secciones-->
+        <nav>
+           <ul>
+                <li><a href="./index-portafolio.html" target="_self">Volver al portafolio</a></li>
+                <li><a href="#Fase1">Fase 1</a></li>
+                <li><a href="#Fase2">Fase 2</a></li>
+                <li><a href="#Fase3">Fase 3</a></li>
+                <li><a href="#Imagen">Imagen</a></li>
+            </ul>
+        </nav>
+
+        <!--Cuerpo de la página dividido en secciones-->
+        <main>
+
+            <!--Sección de información de las películas Marvel-->
+            <section id="Fase1">
+                <h2>Fase 1</h2>
+                <p><b>Iron Man (2008)</b><br><br>
+                    Dirigida por Jon Favresu, protagonizada por Robert Downey Jr.<br><br>
+                    <b>The Incredible Hulk (2008)</b><br><br>
+                    Dirigida por Louis Leterrier, protagonizada por Edward Norton.
+                </p>
+            </section>
+            <section id="Fase2">
+                <h2>Fase 2</h2>
+                <p><b>Thor: The Dark World (2913)</b><br><br>
+                    Dirigida por Alan Taylor, protagonizada por Chris Hemsworth.<br><br>
+                    <b>Guardian of the Galaxy (2014)</b><br><br>
+                    Dirigida por James Gunn, protagonizada por Chris Pratt.
+                </p>
+            </section>
+            <section id="Fase3">
+                <h2>Fase 3</h2>
+                <p><b>Captain America: Civil War (2016)</b><br><br>
+                    Dirigida por Anthony y Joe Russo, protagonizada por Chris Evans.<br>
+                    <h2>Infinity War</h2>
+                    <b>Infinity War (2018)</b><br><br>
+                    Dirigida por Anthony y Joe Russo, protagonizada por el elenco de todo Marvel.
+                </p>
+            </section>
+
+            <!--sección de Multimedia-->
+            <section id="Imagen">
+                <img alt="avengers_infinity_war_joe_anthony_russo" src="../assets/img/Avengers_Joe_Anthony_Russo.jpg" width="400" height="300">
+                <video src="../assets/media/Trailer-Marvel.mp4" width="400" height="300" controls></video>
+            </section>
+
+            <!--Sección de Tabla-->
+            <section>
+                <h2>Personajes</h2>
+                <table>
+                    <tr>
+                        <th style="background-color: chocolate;">Nombre</th>
+                        <th style="background-color: chocolate;">Edad</th>
+                    </tr>
+                    <tr>
+                        <td>Iron Man</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Captain America</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Thor</td>
+                        <td>40</td>
+                    </tr>
+                </table>
+            </section>
+
+            <!--Sección de Formulario-->
+            <section>
+                <h2>Suscríbete</h2>
+                <form>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required><br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Un poco sobre mi</title>
+        <style>
+            td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        <header>
+            <h1>Datos personales</h1> <br>
+            <a href="./index-portafolio.html" target="_self">Volver al portafolio</a>
+        </header>
+        <section>
+            <p>Hola, mi nombre es Roberto Marcos Almazán Muñoz, <br>
+            tengo 36 años,soy casado, vivo en la X Región y <br>
+            soy informático de profesión</p><br>
+            <img alt="Roberto Almazán" src="../assets/img/Foto_Perfil_Roberto_Almazán.jpg"width="400" height="300">
+        </section>
+        <section>
+            <h2>Listado de mis gustos</h2>
+            <ul>
+                <li>Me gusta La Renga</li>
+                <li>Me gustan los videojuegos</li>
+                <li>Me gusta salir a pasear</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Tabla de canciones que me gustan</h2>
+            <table>
+                <tr>
+                    <th>Grupo</th>
+                    <th>Álbum</th>
+                    <th>Canción</th>
+                </tr>
+                <tr>
+                    <td>La Renga</td>
+                    <td>La Renga</td>
+                    <td>El rebelde</td>
+                </tr>
+                <tr>
+                    <td>La Renga</td>
+                    <td>Despedazado por mil partes</td>
+                    <td>La balada del diablo y la muerte</td>
+                </tr>
+                <tr>
+                    <td>La Renga</td>
+                    <td>Detonador de sueños</td>
+                    <td>A tú lado</td>
+                </tr>
+                <tr>
+                    <td>La Renga</td>
+                    <td>Algún Rayo</td>
+                    <td>Canibalismo galáctico</td>
+                </tr>
+                <tr>
+                    <td>La Renga</td>
+                    <td>Pesados vestigios</td>
+                    <td>Corazón fujitivo</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Encuesta</h2>
+            <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div>
+                    <label>¿Conoce alguna de las canciones que me gusta?</label>
+                    <input type="radio" id="conoce-s" name="conoce" value="Si">
+                    <label for="conoce-s">Si</label>
+                    <input type="radio" id="conoce-n" name="conoce" value="No">
+                    <label for="conoce-n">No</label>
+                </div>
+                <div>
+                    <label>¿Cuál canción conoce?</label><br>
+                    <label>
+                        <input type="checkbox" id="cancion1" name="cancion1" value="1">
+                        <label for="cancion1"> El rebelde</label><br>
+                        <input type="checkbox" id="cancion2" name="cancion2" value="2">
+                        <label for="cancion2"> La balada del diablo y la muerte</label><br>
+                        <input type="checkbox" id="cancion3" name="cancion3" value="3">
+                        <label for="cancion3"> A tú lado</label><br>
+                        <input type="checkbox" id="cancion4" name="cancion4" value="4">
+                        <label for="cancion4"> Canibalismo galáctico</label><br>
+                        <input type="checkbox" id="cancion5" name="cancion5" value="5">
+                        <label for="cancion5"> Corazón fujitivo</label><br>
+                        <input type="checkbox" id="cancion6" name="cancion6" value="6">
+                        <label for="cancion6"> Ninguna</label>
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>Derechos de autor & copy: 2026 Roberto Almazán Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
