@@ -13,6 +13,11 @@ header {
     padding: 2rem;
 }
 
+.mi-tarjeta:hover {
+    background-color: var(--bs-primary) !important; /* Cambia al color primario de Bootstrap */
+    color: white !important;
+  }
+
 body {
 
     /*Estilo del body general*/
